@@ -1,0 +1,47 @@
+import { BrowserRouter as Router, Switch, Route } from 'react-router-dom'
+import './App.css';
+import React from 'react';
+import { ThemeProvider } from '@material-ui/core/styles';
+import { createTheme } from '@material-ui/core/styles';
+import Appbar from './components/layout/Appbar'
+import Home from './pages/Home';
+import Product from './pages/Product';
+import ScrollToTop from './components/ScrollToTop'
+
+
+const theme = createTheme({
+    palette:{
+      primary:{
+        main: '#a1887f'
+      }
+  }, 
+  
+  direction: 'rtl',
+
+  typography:{
+    fontFamily:'samim'
+  }
+})
+
+
+function App() {
+  return (
+    <ThemeProvider theme={theme}>
+      <Router>
+        <ScrollToTop />
+        <Appbar>
+          <Switch>
+            <Route exact path="/">
+              <Home />
+            </Route>
+            <Route path="/product/:id">
+              <Product />
+            </Route>
+          </Switch>
+        </Appbar>
+      </Router>
+    </ThemeProvider>
+  );
+}
+
+export default App;

@@ -1,0 +1,204 @@
+{
+    "pslider":[
+        {
+            "image":"https://dkstatics-public.digikala.com/digikala-products/4308872.jpg?x-oss-process=image/resize,w_1280/quality,q_80",
+            "title":"دستبند زنانه نوژین مدل کارتیه",
+            "details": "دستبند زنانه نوژین مدل کارتیه",
+            "prise":"8000",
+            "id":"1"
+        },
+        {
+            "image": "https://dkstatics-public.digikala.com/digikala-products/114130785.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80",
+            "title": "دستبند زنانه ",
+            "details": "دستبند زنانه",
+            "prise": "8000",
+            "id": "2"
+        },
+        {
+            "image": "https://dkstatics-public.digikala.com/digikala-products/120607672.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80",
+            "title": "گوشواره زنانه",
+            "details": "گشواره زنانه",
+            "prise": "8000",
+            "id": "3"
+        },
+        {
+            "image": "https://dkstatics-public.digikala.com/digikala-products/f768cb29c9c8782a7599d442f8fcb2175204b02d_1594762098.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80",
+            "title": "گردنبند زنانه",
+            "details": "گردنبند زنانه",
+            "prise": "8000",
+            "id": "4"
+        },
+        {
+            "image": "https://dkstatics-public-2.digikala.com/digikala-products/111397244.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80",
+            "title": "پابند زنانه طرح ستاره",
+            "details": "پابند زنانه طرح ستاره",
+            "prise": "25000",
+            "id": "5"
+        },
+        {
+            "image": "https://dkstatics-public.digikala.com/digikala-products/3721556.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80",
+            "title": "آویز ساعت طرح انگشتر",
+            "details": "آویز ساعت طرح انگشتر",
+            "prise": "45000",
+            "id": "6"
+        }
+        
+    ],
+
+    "picture": [
+        {
+            "image":["https://dkstatics-public.digikala.com/digikala-products/4308872.jpg?x-oss-process=image/resize,w_1280/quality,q_80",
+                     "https://dkstatics-public.digikala.com/digikala-products/4308869.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                     "https://dkstatics-public.digikala.com/digikala-products/4308867.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                     "https://dkstatics-public.digikala.com/digikala-products/4309083.jpg?x-oss-process=image/resize,h_1600/quality,q_80"],
+            "title": "دستبند زنانه نوژین مدل کارتیه",
+            "alt": "دستبند زنانه نوژین مدل کارتیه",
+            "prise": "8000",
+            "id": "1"
+        },
+        {
+            "image": ["https://dkstatics-public.digikala.com/digikala-products/114130785.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80",
+                      "https://dkstatics-public.digikala.com/digikala-products/114130838.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                      "https://dkstatics-public.digikala.com/digikala-products/114088479.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                      "https://dkstatics-public.digikala.com/digikala-products/114112740.jpg?x-oss-process=image/resize,h_1600/quality,q_80"],
+            "title": "دستبند زنانه ",
+            "alt": "دستبند زنانه",
+            "prise": "8000",
+            "id": "2"
+        },
+        {
+            "image": ["https://dkstatics-public.digikala.com/digikala-products/120607672.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80",
+                      "https://dkstatics-public.digikala.com/digikala-products/120426301.jpg?x-oss-process=image/resize,h_1600/quality,q_80/watermark,image_ZGstdy8xLnBuZw==,t_90,g_nw,x_15,y_15"
+                    ],
+            "title": "گوشواره زنانه",
+            "alt": "گشواره زنانه",
+            "prise": "8000",
+            "id": "3"
+        },
+        {
+            "image": ["https://dkstatics-public.digikala.com/digikala-products/f768cb29c9c8782a7599d442f8fcb2175204b02d_1594762098.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80",
+                      "https://dkstatics-public.digikala.com/digikala-products/5ce0e4d3aac7393b6800295e8756fd2e4c315d92_1622539107.jpg?x-oss-process=image/resize,h_1600/quality,q_80/watermark,image_ZGstdy8xLnBuZw==,t_90,g_nw,x_15,y_15",
+                      "https://dkstatics-public.digikala.com/digikala-products/78e919bbc1700fceb6f12b23b46a7fce7db8fb57_1605596164.jpg?x-oss-process=image/resize,h_1600/quality,q_80",
+                      "https://dkstatics-public.digikala.com/digikala-products/ff5256b3a62425f202124ba87248186b4f3f97df_1622539100.jpg?x-oss-process=image/resize,h_1600/quality,q_80/watermark,image_ZGstdy8xLnBuZw==,t_90,g_nw,x_15,y_15"],
+            "title": "گردنبند زنانه",
+            "alt": "گردنبند زنانه",
+            "prise": "8000",
+            "id": "4"
+        },
+        {
+            "image": ["https://dkstatics-public-2.digikala.com/digikala-products/111397244.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80"],
+            "title": "پابند زنانه طرح ستاره",
+            "alt": "پابند زنانه طرح ستاره",
+            "prise": "25000",
+            "id": "5"
+        },
+        {
+            "image": ["https://dkstatics-public.digikala.com/digikala-products/3721556.jpg?x-oss-process=image/resize,m_lfit,h_600,w_600/quality,q_80"],
+            "title": "آویز ساعت طرح انگشتر",
+            "alt": "آویز ساعت طرح انگشتر",
+            "prise": "45000",
+            "id": "6"
+        }
+    ],
+    "products":[
+            {
+                "specification": [{"title":"جنس","info":"استیل"},
+                                  {"title":"نحوه بسته شدن زیورآلات","info":"ساده"},
+                                  {"title":"طول تقریبی دستبند","info":"0.5 × 21 سانتی متر"},
+                                  {"title":"ویژگی های ظاهری","info":"قفل"}
+                                ],
+                "id": "1"
+            },
+            {
+                "specification": [{
+                        "title": "جنس",
+                        "info": "استیل"
+                    }],
+                "id": "2"
+            },
+            {
+                "specification": [{
+                        "title": "جنس",
+                        "info": "استیل"
+                    },
+                    {
+                        "title": "نحوه بسته شدن زیورآلات",
+                        "info": "قلابی"
+                    },
+                    {
+                        "title": "نحوه اتصال",
+                        "info": "بخیه ای"
+                    },
+                    {
+                        "title": "ویژگی های ظاهری",
+                        "info": "قفل"
+                    },
+                    {
+                        "title": "ابعاد",
+                        "info": "0.5 × 21 سانتی متر"
+                    },
+                    {
+                        "title": "جزئیات",
+                        "info": "یک عدد گوشواره"
+                    }],
+                "id": "3"
+            },
+            {
+               "specification": [{
+                    "title": "جنس",
+                    "info": "استیل"
+                },
+                {
+                    "title": "نحوه بسته شدن زیورآلات",
+                    "info": "ساده"
+                },
+                {
+                    "title": "طول تقریبی دستبند",
+                    "info": "0.5 × 21 سانتی متر"
+                },
+                {
+                    "title": "ویژگی های ظاهری",
+                    "info": "قفل"
+                }],
+                "id": "4"
+            },
+            {
+               "specification": [{
+                    "title": "جنس",
+                    "info": "استیل"
+                },
+                {
+                    "title": "نحوه بسته شدن زیورآلات",
+                    "info": "ساده"
+                },
+                {
+                    "title": "طول تقریبی دستبند",
+                    "info": "0.5 × 21 سانتی متر"
+                },
+                {
+                    "title": "ویژگی های ظاهری",
+                    "info": "قفل"
+                }],
+                "id": "5"
+            },
+            {
+                "specification": [{
+                        "title": "جنس",
+                        "info": "استیل"
+                    },
+                    {
+                        "title": "نحوه بسته شدن زیورآلات",
+                        "info": "ساده"
+                    },
+                    {
+                        "title": "طول تقریبی دستبند",
+                        "info": "0.5 × 21 سانتی متر"
+                    },
+                    {
+                        "title": "ویژگی های ظاهری",
+                        "info": "قفل"
+                    }],
+                "id": "6"
+            }
+    ]
+}

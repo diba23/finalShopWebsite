@@ -1,0 +1,27 @@
+.containerr { 
+    margin-top: 90px;
+}
+
+.sliderBody {
+    
+    height: 250px;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hoomSwiper {
+  width: 900px;
+  height: 100%;
+  /* background-color:darkgoldenrod; */
+}
+
+.hoomSwiper.swiper-slide {
+  text-align: center;
+  /* font-size: 18px; */
+  background: #fff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
