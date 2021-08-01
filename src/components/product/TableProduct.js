@@ -17,48 +17,46 @@ function createData(name, info) {
 
 const defaultProps = {
     m: 1,
-    style: { width: '5rem',},
+    style: { width: '5rem', },
     borderColor: 'secondary.main',
 };
 
-const TableProduct = ({result})=>{
-
-    console.log("result");
-    const cells = result.specification;
+const TableProduct = ({ result }) => {
+    console.log(result);
+    const cells = result && result.specification || [];
 
     const rows = [
-
-        cells && cells.map((cell)=>(
-            createData(cell.title , cell.info)
+        cells.map((cell) => (
+            createData(cell.title, cell.info)
         ))
 
     ];
 
-    return(
+    return (
         <div>
 
             <Box align="right" m={1} >
-            <Typography > مشخصات کالا</Typography>
-            <Box borderBottom={2} {...defaultProps} />
+                <Typography > مشخصات کالا</Typography>
+                <Box borderBottom={2} {...defaultProps} />
             </Box>
 
             <Box display="flex" mt={2} >
-            <Typography display="inline" style={{marginTop:15 , marginLeft:150 , marginRight:8 }} >مشخصات</Typography>
+                <Typography display="inline" style={{ marginTop: 15, marginLeft: 150, marginRight: 8 }} >مشخصات</Typography>
 
-            <TableContainer>
-                <Table>
-                    <TableBody>
-                        {rows.map((row)=>(
-                            <TableRow key={row.name}>
-                                <TableCell component="th" align="right" style={{ width: 300 }}>
-                                    {row.name}
-                                </TableCell>
-                                <TableCell align="right" >{row.info}</TableCell>
-                            </TableRow>
-                        ))}
-                    </TableBody>
-                </Table>
-            </TableContainer>
+                <TableContainer>
+                    <Table>
+                        <TableBody>
+                            {rows.map((row) => (
+                                <TableRow key={row.name}>
+                                    <TableCell component="th" align="right" style={{ width: 300 }}>
+                                        {row.name}
+                                    </TableCell>
+                                    <TableCell align="right" >{row.info}</TableCell>
+                                </TableRow>
+                            ))}
+                        </TableBody>
+                    </Table>
+                </TableContainer>
             </Box>
         </div>
     );
