@@ -15,9 +15,6 @@ const PicGallery = ({ result }) => {
         const gallery = result.image;
 
 
-        console.log(gallery && gallery)
-
-
         return (
                 <div className="productDeGallery" >
 

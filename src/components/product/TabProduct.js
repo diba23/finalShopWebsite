@@ -56,7 +56,7 @@ function a11yProps(index) {
 
 
 
-const TabProduct = () => {
+const TabProduct = ({result}) => {
     const classes = useStyles();
     const [value, setValue] = React.useState(0);
 
@@ -74,7 +74,7 @@ const TabProduct = () => {
                 </Tabs>
             </AppBar>
             <TabPanel value={value} index={0}>
-                <TableProduct/>
+                <TableProduct result={result} />
             </TabPanel>
             <TabPanel value={value} index={1}>
                 <Typography>esigned for use-cases that are focused around handling a large amounts of tabular data. While it comes with a more rigid structure, in exchange, you gain more powerful features</Typography>

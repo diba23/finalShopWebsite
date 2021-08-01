@@ -23,12 +23,16 @@ const defaultProps = {
 
 const TableProduct = ({ result }) => {
     console.log(result);
-    const cells = result && result.specification || [];
+    const cells = result.specification ;
+    console.log(cells);
 
     const rows = [
-        cells.map((cell) => (
-            createData(cell.title, cell.info)
-        ))
+        cells && cells.map((cell) => {   
+         return(  
+             createData(cell.title, cell.info)
+
+             );
+            })
 
     ];
 
@@ -46,7 +50,7 @@ const TableProduct = ({ result }) => {
                 <TableContainer>
                     <Table>
                         <TableBody>
-                            {rows.map((row) => (
+                            {rows && rows.map((row) => (
                                 <TableRow key={row.name}>
                                     <TableCell component="th" align="right" style={{ width: 300 }}>
                                         {row.name}
