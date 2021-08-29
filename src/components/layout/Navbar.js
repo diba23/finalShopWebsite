@@ -7,8 +7,8 @@ import MenuItem from '@material-ui/core/MenuItem';
 import ClickAwayListener from '@material-ui/core/ClickAwayListener';
 import Paper from '@material-ui/core/Paper';
 import Popper from '@material-ui/core/Popper';
-import Breadcrumbs from '@material-ui/core/Breadcrumbs';
-import Link from '@material-ui/core/Link';
+// import Breadcrumbs from '@material-ui/core/Breadcrumbs';
+// import Link from '@material-ui/core/Link';
 import MenuList from '@material-ui/core/MenuList';
 
 
@@ -105,14 +105,14 @@ function Navbar() {
 
             </AppBar>
 
-            <Breadcrumbs aria-label="breadcrumb">
+            {/* <Breadcrumbs aria-label="breadcrumb">
                 <Link color="inherit" href="/" onClick={handleClick}>
                     Material-UI
                 </Link>
                 <Link color="inherit" href="/getting-started/installation/" onClick={handleClick}>
                     Core
                 </Link>
-            </Breadcrumbs>
+            </Breadcrumbs> */}
 
             <Popper open={open} anchorEl={anchorRef.current} role={undefined} transition disablePortal style={{ zIndex: 10 }}>
                 <Paper>

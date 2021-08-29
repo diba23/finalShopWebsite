@@ -6,6 +6,7 @@ import { createTheme } from '@material-ui/core/styles';
 import Appbar from './components/layout/Appbar'
 import Home from './pages/Home';
 import Product from './pages/Product';
+import ShoppingCarts from './pages/ShoppingCarts';
 import ScrollToTop from './components/ScrollToTop'
 
 
@@ -34,8 +35,11 @@ function App() {
             <Route exact path="/">
               <Home />
             </Route>
-            <Route path="/product/:id">
+            <Route exact path="/product/:id">
               <Product />
+            </Route>
+            <Route path="/cart">
+              <ShoppingCarts />
             </Route>
           </Switch>
         </Appbar>

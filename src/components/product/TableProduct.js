@@ -26,15 +26,14 @@ const TableProduct = ({ result }) => {
     const cells = result.specification ;
     console.log(cells);
 
-    const rows = [
-        cells && cells.map((cell) => {   
+    const rows = cells && cells.map((cell) => {   
+            console.log(cell.title)
          return(  
              createData(cell.title, cell.info)
-
              );
             })
 
-    ];
+    ;
 
     return (
         <div>
